@@ -26,6 +26,8 @@ kotlin {
             dependencies {
                 implementation(project(":breeds"))
                 api(project(":analytics"))
+                implementation("androidx.datastore:datastore-core-okio:1.1.0")
+                implementation("androidx.datastore:datastore-preferences-core:1.1.0")
             }
         }
     }
